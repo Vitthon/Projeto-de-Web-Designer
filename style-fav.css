@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    header{
+     
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .icones {
+    display: flex;
+    position: absolute;
+    margin-left: 1250px;
+    }
+    
+    .separa-img{
+    margin-left: 14px ;
+    margin-right: 14px;
+    
+    }
+    /* Barra de Pesquisa*/
+    .search-box{
+    position: absolute;
+    left: 70px;
+    height: 30px;
+    padding-right: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #D9D9D9;
+    border-radius: 40px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .search-box a{
+    margin-left: 60px;
+    margin-top: 5px;
+    }
+    
+    .search-text{
+    font-size: 15px;
+    background: none;
+    border: none;
+    margin-right: 25px;
+    outline: none;
+    }
+    
+    .linha{
+    text-align: center;
+    color: #766d6d;;
+    }
+    
+    /* Barra de Navegação*/
+    #barra{
+    list-style: none;
+    padding: 0;
+    padding-right: 160px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Tight', sans-serif;
+    }
+    
+    #barra li{
+    display: inline;  
+    font-size: 20px;
+    padding-left: 160px;
+    
+    }
+    
+    #barra li a{
+    padding: 20px;
+    display: inline-block;  
+    color: #766d6d;
+    }
+    
+    #barra li a:hover{
+    color: #1e5845;
+    }
+
+    main{
+
+        font-family: 'Arima', cursive;
+    }
+
+    .barra-inicial{
+height: 50px;
+width: 1518px;
+background: #357373;
+margin-top: 20px;
+
+    }
+
+    .barra-inicial h3{
+text-align: center;
+padding-top: 10px;
+color: beige;
+font-size: 25px;
+
+    }
+
+    .camisas{
+        margin-left: 100px;
+       margin-top: 80px;
+       margin-bottom: 10px;
+        height: 45px;
+        width: 190px;
+        background: #357373;
+    }
+
+    .camisas h3{
+        text-align: center;
+        padding-top: 5px;
+        color: beige;
+        font-size: 27px;
+
+    }
+
+    .posiçao-cam{
+display: block;
+flex-direction: column;
+padding: 10px;
+
+margin-left: 20px;
+
+    }
+
+    .posiçao-cam img{
+margin-left: 70px;
+
+    }
+
+    .acessorios{
+        margin-left: 100px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+         height: 45px;
+         width: 190px;
+         background: #357373;
+
+    }
+
+    .acessorios h3{
+        text-align: center;
+        padding-top: 6px;
+        color: beige;
+        font-size: 26px;
+
+    }
+
+    .posiçao-ace{
+
+        display: block;
+flex-direction: column;
+padding: 10px;
+
+margin-left: 20px;
+    }
+
+    .posiçao-ace img{
+        margin-left: 70px;
+
+    }
+
+    .outras{
+font-size: 26px;
+margin-top: 130px;
+margin-left: 100px;
+    }
+
+
+    .outros-rec{
+   display: block;
+flex-direction: column;
+padding: 10px;
+margin-left: 20px;
+transition: 1.9 ease-in-out
+}
+
+.outros-rec img:hover{
+ transform: scale(1.10);
+    cursor: pointer;
+
+}
+.outros-rec img{
+    margin-left: 70px;
+   
+}
+
+footer{
+    background-color:  #D9D9D9;
+    margin-top: 100px;
+    padding-top: 30px;
+  }
+  
+  
+  
+  .footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    padding: 0;
+  }
+  .socialicons{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+     
+  }
+  
+  .socialicons a i{
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+   
+  
+  }
+  .socialicons a:hover{
+    background-color: #1e5845;
+    transition: 0.5s;
+  }
+  
+  .socialicons a:hover i{
+    color:white;
+    transition: 0.5s;
+  }
+  
+  .footernav{
+    margin: 0;
+    list-style: none;
+  
+  }
+  
+  .footernav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .footernav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.2s;
+    text-align: center;
+    
+  }
+  
+  .footernav ul li a:hover{
+    opacity: 1;
+    
+  
+   
+  }
+  
+  .footerlr{
+    background-color: #1e5845;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    width: 99,95%;  
+   
+  
+  
+  }
+  
+  .footerlr p{
+    text-align: center;
+    color: black;
+    padding: 10px;
+   padding-left: 665px;
+  }
